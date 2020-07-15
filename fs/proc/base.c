@@ -111,7 +111,6 @@ static void proc_kill_task(struct work_struct *work)
 	kfree(kinfo);
 }
 
->>>>>>> 9e0e5f2fb0be... proc: Don't let Google Camera and Settings run in the background
 /* NOTE:
  *	Implementing inode permission operations in /proc is almost
  *	certainly an error.  Permission checks need to happen during
